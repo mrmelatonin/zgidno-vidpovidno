@@ -1,0 +1,121 @@
+{
+  "scope": "Supplied project PDFs only; current legal status not verified",
+  "units": {
+    "dimensions": "mm",
+    "font": "pt",
+    "line_spacing": "multiple"
+  },
+  "normative": {
+    "a4_mm": [
+      210,
+      297
+    ],
+    "margins_mm": {
+      "left": 30,
+      "right": 10,
+      "top": 20,
+      "bottom": 20
+    },
+    "font_family": "Times New Roman",
+    "body_font_pt_range": [
+      12,
+      14
+    ],
+    "small_elements_font_pt_range": [
+      8,
+      12
+    ],
+    "body_a4_line_spacing_recommended_range": [
+      1,
+      1.5
+    ],
+    "first_line_indent_mm": 10,
+    "offsets_from_left_margin_mm": {
+      "addressee": 90,
+      "approval": 100,
+      "access_restriction": 100,
+      "signature_name": 125
+    },
+    "first_page_number_visible": false,
+    "subsequent_page_number_position": "top-center",
+    "appendix_numbering": "separate",
+    "source": "I 118; A appendix 8 points 1–13; D supplementary only",
+    "document_type_bold_required": true,
+    "document_type_uppercase_required": true,
+    "headings_bold_styles_allowed": [
+      "upright",
+      "italic"
+    ],
+    "quotation_marks": {
+      "mandatory_style": "“”",
+      "disallowed": [
+        "«»",
+        "\"\"",
+        "„“"
+      ]
+    },
+    "second_approval_or_agreement_offset_from_left_margin_mm": 104,
+    "letterhead_pages": [
+      1
+    ],
+    "signature_transfer_to_second_page_min_text_lines": 2,
+    "qr_code": {
+      "size_mm": [
+        21,
+        21
+      ],
+      "page": 1,
+      "position": "bottom-left",
+      "source": "A appendix 8 point 13",
+      "data_must_come_from_authorized_system": true
+    },
+    "printing": {
+      "permanent_retention": "single-sided",
+      "nonpermanent_retention_duplex_allowed_when_pages_gt": 20,
+      "duplex_signature_side": "front of final sheet",
+      "nonpermanent_pages_lte_20_project_default": "single-sided",
+      "source": "A appendix 8 point 11"
+    }
+  },
+  "project_defaults_not_exclusive_requirements": {
+    "paper": "A4",
+    "body_font_pt": 14,
+    "body_line_spacing": 1,
+    "body_alignment": "justify",
+    "paragraph_space_before_pt": 0,
+    "paragraph_space_after_pt": 0
+  },
+  "manual_checks": [
+    "applicable institution and document type",
+    "approved form availability",
+    "required requisites and exceptions",
+    "actual signing and registration dates",
+    "signature authority and electronic signature validation",
+    "attachments and references",
+    "visual layout",
+    "quotation marks style"
+  ],
+  "source_precedence": {
+    "primary": [
+      "I: Instruction",
+      "A: Instruction appendices"
+    ],
+    "supplementary": "D: DSTU for unregulated matters",
+    "presentation": "One applicable rule with source reference"
+  },
+  "special_profiles_override_project_defaults": {
+    "submission_to_president_of_ukraine": {
+      "paper": "A4",
+      "font": "Times New Roman",
+      "font_pt": 16,
+      "line_spacing": 1.5,
+      "source": "A appendix 8 point 2"
+    },
+    "submission_for_state_registration_to_minjust": {
+      "font": "Times New Roman",
+      "font_pt": 14,
+      "line_spacing": 1.5,
+      "source": "A appendix 8 point 2"
+    }
+  }
+}
